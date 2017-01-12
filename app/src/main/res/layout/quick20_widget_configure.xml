@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="16dp">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="@string/configure" android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_widget_header"
+        android:id="@+id/textView" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="*"
+        android:layout_marginTop="10dp">
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:padding="@dimen/widget_margin">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/quick20_widget_imageView_d20"
+                    android:src="@drawable/d20_state"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:tag="d20"
+                    android:onClick="onClick"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="@string/die_20"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:padding="@dimen/widget_margin">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/quick20_widget_imageView_d12"
+                    android:src="@drawable/d12_state"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:tag="d12"
+                    android:onClick="onClick"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="@string/die_12"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:padding="@dimen/widget_margin">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/quick20_widget_imageView_d10"
+                    android:src="@drawable/d10_state"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:tag="d10"
+                    android:onClick="onClick"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="@string/die_10"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+
+        </TableRow>
+        <TableRow android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:padding="@dimen/widget_margin">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/quick20_widget_imageView_d8"
+                    android:src="@drawable/d8_state"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:tag="d8"
+                    android:onClick="onClick"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="@string/die_8"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:padding="@dimen/widget_margin">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/quick20_widget_imageView_d6"
+                    android:src="@drawable/d6_state"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:tag="d6"
+                    android:onClick="onClick"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="@string/die_6"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent" android:layout_height="match_parent"
+                android:padding="@dimen/widget_margin">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/quick20_widget_imageView_d4"
+                    android:src="@drawable/d4_state"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:tag="d4"
+                    android:onClick="onClick"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="@string/die_4"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    />
+            </RelativeLayout>
+
+        </TableRow>
+        </TableLayout>
+
+    <Button android:id="@+id/add_button" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/add_widget"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

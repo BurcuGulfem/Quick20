@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true"
+        android:drawable="@drawable/d10_blue" /> <!-- pressed -->
+    <item android:state_selected="true"
+        android:drawable="@drawable/d10_blue" /> <!-- selected -->
+    <item android:state_focused="true"
+        android:drawable="@drawable/d10_blue" /> <!-- focused -->
+    <item android:state_hovered="true"
+        android:drawable="@drawable/d10_blue" /> <!-- hovered -->
+    <item android:drawable="@drawable/d10_white" /> <!-- default -->
+</selector>

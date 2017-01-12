@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quick20</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="add_widget_header">Select a dice</string>
+    <string name="die_20">20</string>
+    <string name="die_12">12</string>
+    <string name="die_10">10</string>
+    <string name="die_8">8</string>
+    <string name="die_6">6</string>
+    <string name="die_4">4</string>
+</resources>
